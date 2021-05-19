@@ -1,19 +1,18 @@
 import React from "react";
 import L from "leaflet";
-import { MapContainer, TileLayer, GeoJSON, Marker, Popup } from "react-leaflet";
+import {
+  MapContainer,
+  TileLayer,
+  GeoJSON,
+  Marker,
+  Popup,
+  LayersControl,
+} from "react-leaflet";
 import noeud from "./../data/Noeud.json";
 import noeud_image from "./../img/noeud.png";
 import modele from "./../data/Modele_sault_brenaz.json";
 import branche from "./../data/Branche.json";
-
-var OpenStreetMap_France = L.tileLayer(
-  "https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png",
-  {
-    maxZoom: 20,
-    attribution:
-      '&copy; OpenStreetMap France | &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-  }
-);
+import { FeatureGroup } from "leaflet";
 
 function Macarte() {
   console.log(noeud);
@@ -31,44 +30,45 @@ function Macarte() {
 
   function branche_style() {
     return {
-      fillColor: "transparent",
       color: "orange",
     };
   }
 
   function onEachModele(modele, lay) {
     lay.bindPopup(
-      "<p>NOM : " +
+      "<table><thead><tr><th>Modèle de Sault-Brénaz</th></tr></thead><tbody></table><tbody><tr><td>Nom : </td><td>" +
         modele.properties.NOM +
-        "</p><p>Bief : " +
+        "<br></td></tr><tr><td>Bief : </td><td>" +
         modele.properties.Bief +
-        "</p><p>Chute : " +
+        "</td></tr></tbody><br></td></tr><tr><td>Chute : </td><td>" +
         modele.properties.Chute +
-        "</p><p>MOA : " +
+        "</td></tr></tbody><br></td></tr><tr><td>MOA : </td><td>" +
         modele.properties.MOA +
-        "</p><p>Obj_modele : " +
+        "</td></tr></tbody><br></td></tr><tr><td>Obj_modele : </td><td>" +
         modele.properties.Obj_modele +
-        "</p><p>Borne_debi : " +
+        "</td></tr></tbody><br></td></tr><tr><td>Borne_debi : </td><td>" +
         modele.properties.Borne_debi +
-        "</p><p>Borne_de_1 : " +
+        "</td></tr></tbody><br></td></tr><tr><td>Borne_de_1 : </td><td>" +
         modele.properties.Borne_de_1 +
-        "</p><p>Proj_refer : " +
+        "</td></tr></tbody><br></td></tr><tr><td>Proj_refer :</td><td>" +
         modele.properties.Proj_refer +
-        "</p><p>Nivellement : " +
+        "</td></tr></tbody><br></td></tr><tr><td>Nivellement : </td><td>" +
         modele.properties.Nivellemen +
-        "</p><p>Modelisate : " +
+        "</td></tr></tbody><br></td></tr><tr><td>Modelisate : </td><td>" +
         modele.properties.Modelisate +
-        "</p><p>Dessinateu : " +
+        "</td></tr></tbody><br></td></tr><tr><td>Dessinateu : </td><td>" +
         modele.properties.Dessinateu +
-        "</p><p>Date_saisi : " +
+        "</td></tr></tbody><br></td></tr><tr><td>Date_valeu : </td><td>" +
+        modele.properties.Date_valeu +
+        "</td></tr></tbody><br></td></tr><tr><td>Date_saisi : </td><td>" +
         modele.properties.Date_saisi +
-        "</p><p>Valid : " +
+        "</td></tr></tbody><br></td></tr><tr><td>Valid : </td><td>" +
         modele.properties.Valid +
-        "</p><p>Shape_Leng : " +
+        "</td></tr></tbody><br></td></tr><tr><td>Shape_Leng : </td><td>" +
         modele.properties.Shape_Leng +
-        "</p><p>Shape_Area : " +
+        "</td></tr></tbody><br></td></tr><tr><td>Shape_Area : </td><td>" +
         modele.properties.Shape_Area +
-        "</p>"
+        "</td></tr></tbody>"
     );
   }
 
@@ -102,6 +102,7 @@ function Macarte() {
   }); */
   return (
     <MapContainer className="map" center={[45.7133, 5.52826]} zoom={11}>
+      <LayersControl position="topright" />
       <TileLayer
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
