@@ -11,8 +11,14 @@ import {
 import noeud from "./../data/Noeud.json";
 import noeud_image from "./../img/noeud.png";
 import modele from "./../data/Modele_sault_brenaz.json";
-import branche from "./../data/Branche.json";
-import { FeatureGroup } from "leaflet";
+import casier from "./../data/casier.json";
+import section from "./../data/section.json";
+import branche_bleue from "./../data/branche_bleue.json";
+import branche_marron from "./../data/branche_marron.json";
+import branche_verte from "./../data/branche_verte.json";
+import branche_orange from "./../data/branche_orange.json";
+import branche_bleue_fonce from "./../data/branche_bleu_fonce.json";
+import Rhone from "./../data/Rhone.json";
 
 function Macarte() {
   console.log(noeud);
@@ -28,9 +34,52 @@ function Macarte() {
     };
   }
 
-  function branche_style() {
+  function casier_style() {
+    return {
+      fillColor: "transparent",
+      color: "red",
+    };
+  }
+
+  function section_style() {
+    return {
+      color: "black",
+    };
+  }
+
+  /*   function branche_style() {
     return {
       color: "orange",
+    };
+  } */
+
+  function branche_bleue_style() {
+    return {
+      color: "#00FFFF",
+    };
+  }
+
+  function branche_marron_style() {
+    return {
+      color: "#A52A2A",
+    };
+  }
+
+  function branche_verte_style() {
+    return {
+      color: "#32CD32",
+    };
+  }
+
+  function branche_orange_style() {
+    return {
+      color: "#FFA500",
+    };
+  }
+
+  function branche_bleue_fonce_style() {
+    return {
+      color: "#00BFFF",
     };
   }
 
@@ -72,7 +121,15 @@ function Macarte() {
     );
   }
 
-  function onEachBranche(branche, lay) {
+  function onEachCasier(casier, layer) {
+    layer.bindPopup(casier.properties.NOM);
+  }
+
+  function onEachSection(section, layer) {
+    layer.bindPopup(section.properties.NOM);
+  }
+
+  /*   function onEachBranche(branche, lay) {
     lay.bindPopup(
       "<table><thead><tr><th>Branches de Sault-Brénaz</th></tr></thead><tbody></table><tbody><tr><td>Nom modèle : </td><td>" +
         branche.properties.Nom_modele +
@@ -94,7 +151,7 @@ function Macarte() {
         branche.properties.Nom_noeud1 +
         "</td></tr></tbody>"
     );
-  }
+  } */
 
   //noeud_geojson.addTo(map)
   /*   const iconNoeud = new L.Icon({
@@ -124,15 +181,34 @@ function Macarte() {
           </Popup>
         </Marker>
       ))}
-      <GeoJSON
+      {/* <GeoJSON
         style={branche_style}
         data={branche.features}
         onEachFeature={onEachBranche}
-      />
+      /> */}
       <GeoJSON
         style={modele_style}
         data={modele.features}
         onEachFeature={onEachModele}
+      />
+      <GeoJSON
+        style={casier_style}
+        data={casier.features}
+        onEachFeature={onEachCasier}
+      />
+      <GeoJSON
+        style={section_style}
+        data={section.features}
+        onEachFeature={onEachSection}
+      />
+      <GeoJSON data={Rhone.features} />
+      <GeoJSON style={branche_bleue_style} data={branche_bleue.features} />
+      <GeoJSON style={branche_marron_style} data={branche_marron.features} />
+      <GeoJSON style={branche_verte_style} data={branche_verte.features} />
+      <GeoJSON style={branche_orange_style} data={branche_orange.features} />
+      <GeoJSON
+        style={branche_bleue_fonce_style}
+        data={branche_bleue_fonce.features}
       />
     </MapContainer>
   );

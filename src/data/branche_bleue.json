@@ -1,0 +1,543 @@
+{
+  "type": "FeatureCollection",
+  "name": "branche_bleue",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom_modele": "CNRSBL93_042013",
+        "Type_branc": 5,
+        "Longueur": 571.84149299900002,
+        "Section_am": 0,
+        "Shape_Leng": 571.84149299900002,
+        "Enabled": 1,
+        "NOM": "BOCC1",
+        "Nom_noeud_": "PC1_3",
+        "Nom_noeud1": "PC1_2"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [5.446304790828098, 45.790056721046881],
+            [5.444869658570973, 45.791384097152665],
+            [5.442700077859356, 45.794521348833406]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom_modele": "CNRSBL93_042013",
+        "Type_branc": 5,
+        "Longueur": 824.09950382800002,
+        "Section_am": 0,
+        "Shape_Leng": 824.09950382800002,
+        "Enabled": 1,
+        "NOM": "BOCC2",
+        "Nom_noeud_": "PC1_2",
+        "Nom_noeud1": "PC1_1"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [5.442700077859356, 45.794521348833406],
+            [5.440459806741854, 45.796016638134049],
+            [5.436219678040323, 45.800354589865606]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom_modele": "CNRSBL93_042013",
+        "Type_branc": 5,
+        "Longueur": 2983.7515590399998,
+        "Section_am": 0,
+        "Shape_Leng": 2983.7515590399998,
+        "Enabled": 1,
+        "NOM": "BOCC3",
+        "Nom_noeud_": "PC12B",
+        "Nom_noeud1": "PC7"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [5.502136342971244, 45.682527651261594],
+            [5.540430500784054, 45.681338444976774]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom_modele": "CNRSBL93_042013",
+        "Type_branc": 5,
+        "Longueur": 2988.5395529799998,
+        "Section_am": 0,
+        "Shape_Leng": 2988.5395529799998,
+        "Enabled": 1,
+        "NOM": "BOCC4",
+        "Nom_noeud_": "PC12A",
+        "Nom_noeud1": "PC12B"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [5.501247714333988, 45.655889009291172],
+            [5.499057428017421, 45.670503662212589],
+            [5.502136342971244, 45.682527651261594]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom_modele": "CNRSBL93_042013",
+        "Type_branc": 5,
+        "Longueur": 3876.15090633,
+        "Section_am": 0,
+        "Shape_Leng": 3876.15090633,
+        "Enabled": 1,
+        "NOM": "BOCC5",
+        "Nom_noeud_": "PC12A",
+        "Nom_noeud1": "PC9"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [5.501247714333988, 45.655889009291172],
+            [5.531656374132466, 45.659753636940437],
+            [5.549425638170737, 45.664210626800248]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom_modele": "CNRSBL93_042013",
+        "Type_branc": 5,
+        "Longueur": 3208.45718283,
+        "Section_am": 0,
+        "Shape_Leng": 3208.45718283,
+        "Enabled": 1,
+        "NOM": "BOCC6",
+        "Nom_noeud_": "AVENIERE_3",
+        "Nom_noeud1": "PC12A"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [5.53388853513647, 45.638314067884394],
+            [5.520003778614222, 45.646615941990397],
+            [5.501247714333988, 45.655889009291172]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom_modele": "CNRSBL93_042013",
+        "Type_branc": 5,
+        "Longueur": 2681.8274739200001,
+        "Section_am": 0,
+        "Shape_Leng": 2681.8274739200001,
+        "Enabled": 1,
+        "NOM": "BOCC7",
+        "Nom_noeud_": "AVENIERE_2",
+        "Nom_noeud1": "AVENIERE_3"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [5.560030181199783, 45.624344497862012],
+            [5.551907785165384, 45.633162148359943],
+            [5.53388853513647, 45.638314067884394]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom_modele": "CNRSBL93_042013",
+        "Type_branc": 5,
+        "Longueur": 3433.4367209400002,
+        "Section_am": 0,
+        "Shape_Leng": 3433.4367209400002,
+        "Enabled": 1,
+        "NOM": "BOCC8",
+        "Nom_noeud_": "AVENIERE_1",
+        "Nom_noeud1": "AVENIERE_2"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [5.593840280883055, 45.609379616669145],
+            [5.563891228589159, 45.615835983995765],
+            [5.560030181199783, 45.624344497862012]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom_modele": "CNRSBL93_042013",
+        "Type_branc": 5,
+        "Longueur": 3132.5708120999998,
+        "Section_am": 0,
+        "Shape_Leng": 3132.5708120999998,
+        "Enabled": 1,
+        "NOM": "BOCC9",
+        "Nom_noeud_": "AVENIERE_1",
+        "Nom_noeud1": "AVENIERE_2"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [5.593840280883055, 45.609379616669145],
+            [5.569615436938688, 45.618473825636215],
+            [5.560030181199783, 45.624344497862012]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom_modele": "CNRSBL93_042013",
+        "Type_branc": 5,
+        "Longueur": 3210.0598548900002,
+        "Section_am": 0,
+        "Shape_Leng": 3210.0598548900002,
+        "Enabled": 1,
+        "NOM": "BOCC10",
+        "Nom_noeud_": "AVENIERE_1",
+        "Nom_noeud1": "AVENIERE_2"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [5.593840280883055, 45.609379616669145],
+            [5.576291212899783, 45.621200339459236],
+            [5.560030181199783, 45.624344497862012]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom_modele": "CNRSBL93_042013",
+        "Type_branc": 5,
+        "Longueur": 1845.80570025,
+        "Section_am": 0,
+        "Shape_Leng": 1845.80570025,
+        "Enabled": 1,
+        "NOM": "BOCC11",
+        "Nom_noeud_": "PC14",
+        "Nom_noeud1": "GRANGES"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [5.656981471635912, 45.640553034951004],
+            [5.646387179704715, 45.632260008947711],
+            [5.642868246625079, 45.627361873020376]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom_modele": "CNRSBL93_042013",
+        "Type_branc": 5,
+        "Longueur": 2256.42756525,
+        "Section_am": 0,
+        "Shape_Leng": 2256.42756525,
+        "Enabled": 1,
+        "NOM": "BOCC12",
+        "Nom_noeud_": "PC11",
+        "Nom_noeud1": "PC10"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [5.598323029152783, 45.6672581952364],
+            [5.603627938894484, 45.675865086383943],
+            [5.588252976184712, 45.677757040656012]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom_modele": "CNRSBL93_042013",
+        "Type_branc": 5,
+        "Longueur": 1521.0770797800001,
+        "Section_am": 0,
+        "Shape_Leng": 1521.0770797800001,
+        "Enabled": 1,
+        "NOM": "BOCC13",
+        "Nom_noeud_": "PC11",
+        "Nom_noeud1": "PC10"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [5.598323029152783, 45.6672581952364],
+            [5.589290887887498, 45.672042931062251],
+            [5.588252976184712, 45.677757040656012]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom_modele": "CNRSBL93_042013",
+        "Type_branc": 5,
+        "Longueur": 2100.5182123300001,
+        "Section_am": 0,
+        "Shape_Leng": 2100.5182123300001,
+        "Enabled": 1,
+        "NOM": "BOCC14",
+        "Nom_noeud_": "PC11",
+        "Nom_noeud1": "PC10"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [5.598323029152783, 45.6672581952364],
+            [5.58347184831327, 45.670473976990571],
+            [5.588252976184712, 45.677757040656012]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom_modele": "CNRSBL93_042013",
+        "Type_branc": 5,
+        "Longueur": 3134.31548023,
+        "Section_am": 0,
+        "Shape_Leng": 3134.31548023,
+        "Enabled": 1,
+        "NOM": "BOCC15",
+        "Nom_noeud_": "PC2_2",
+        "Nom_noeud1": "PC1_3"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [5.472417584481096, 45.769887933237214],
+            [5.465120247221034, 45.776167342717883],
+            [5.463026121405922, 45.778112885498409],
+            [5.459537848576843, 45.78173943538048],
+            [5.456740270564256, 45.782890437000759],
+            [5.451952432860714, 45.784333792010315],
+            [5.448129989331722, 45.786472309219882],
+            [5.446585475687178, 45.787782718699404],
+            [5.446304790828098, 45.790056721046881]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom_modele": "CNRSBL93_042013",
+        "Type_branc": 5,
+        "Longueur": 1396.94551419,
+        "Section_am": 0,
+        "Shape_Leng": 1396.94551419,
+        "Enabled": 1,
+        "NOM": "BOCC16",
+        "Nom_noeud_": "PC2_1",
+        "Nom_noeud1": "PC2_2"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [5.482490392388754, 45.75958684599339],
+            [5.477333255131716, 45.763499116227116],
+            [5.472417584481096, 45.769887933237214]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom_modele": "CNRSBL93_042013",
+        "Type_branc": 5,
+        "Longueur": 750.17346293699995,
+        "Section_am": 0,
+        "Shape_Leng": 750.17346293699995,
+        "Enabled": 1,
+        "NOM": "BOCC17",
+        "Nom_noeud_": "STDIDIER",
+        "Nom_noeud1": "BOISCER"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [5.615653135665684, 45.616963529118713],
+            [5.613235649000822, 45.62243427228951],
+            [5.611777696139572, 45.622529284588801]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom_modele": "CNRSBL93_042013",
+        "Type_branc": 5,
+        "Longueur": 2046.0525380199999,
+        "Section_am": 0,
+        "Shape_Leng": 2046.0525380199999,
+        "Enabled": 1,
+        "NOM": "BOCC18",
+        "Nom_noeud_": "AVENIERE_1",
+        "Nom_noeud1": "BOISCER"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [5.593840280883055, 45.609379616669145],
+            [5.609597198448014, 45.61932110258261],
+            [5.611777696139572, 45.622529284588801]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom_modele": "CNRSBL93_042013",
+        "Type_branc": 5,
+        "Longueur": 678.31685026800005,
+        "Section_am": 0,
+        "Shape_Leng": 678.31685026800005,
+        "Enabled": 1,
+        "NOM": "BORC1",
+        "Nom_noeud_": "GRAVIER",
+        "Nom_noeud1": "NVR97.800"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [5.622706683799667, 45.621113489659642],
+            [5.617401157655318, 45.624162980075013],
+            [5.617658768201357, 45.622879900560292]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom_modele": "CNRSBL93_042013",
+        "Type_branc": 5,
+        "Longueur": 1408.73017104,
+        "Section_am": 0,
+        "Shape_Leng": 1408.73017104,
+        "Enabled": 1,
+        "NOM": "BV1",
+        "Nom_noeud_": "PC5",
+        "Nom_noeud1": "NRE86.750"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [5.534216225970366, 45.704155021832953],
+            [5.545054107917754, 45.698006860422709],
+            [5.548879360305677, 45.69915124754808]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom_modele": "CNRSBL93_042013",
+        "Type_branc": 5,
+        "Longueur": 1291.22170224,
+        "Section_am": 0,
+        "Shape_Leng": 1291.22170224,
+        "Enabled": 1,
+        "NOM": "BV1B",
+        "Nom_noeud_": "PC5",
+        "Nom_noeud1": "NRE86.750"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [5.534216225970366, 45.704155021832953],
+            [5.544559859701534, 45.701755444522909],
+            [5.548879360305677, 45.69915124754808]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom_modele": "CNRSBL93_042013",
+        "Type_branc": 5,
+        "Longueur": 1496.2025058300001,
+        "Section_am": 0,
+        "Shape_Leng": 1496.2025058300001,
+        "Enabled": 1,
+        "NOM": "BV2",
+        "Nom_noeud_": "PC6",
+        "Nom_noeud1": "NRE86.250"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [5.568919163206144, 45.697240054508086],
+            [5.554471787961809, 45.701749139369205],
+            [5.55106604547885, 45.701894151338145]
+          ]
+        ]
+      }
+    }
+  ]
+}
