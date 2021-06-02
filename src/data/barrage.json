@@ -1,0 +1,64 @@
+{
+  "type": "FeatureCollection",
+  "name": "barrage",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM": "Barrage de Villebois",
+        "TITRE": "Cote retenue normale (203,30)",
+        "RETENUE": "203,30",
+        "MISEAJOUR": "DPE-F",
+        "VERSION": "18/03/2002",
+        "REF": "SB-BVIL",
+        "TYPE_OUV": 2.0,
+        "CHUTE": 8.0,
+        "REP1": 1.0,
+        "PRODUCTIBI": 249.0,
+        "IMAGES": "https://maps.cnr.tm.fr/imagescnr/phototheque/CNR_default_000596.jpg",
+        "AUTRES": null,
+        "PUISSANCE": null,
+        "TYPEGROUPE": null,
+        "NBGROUPE": null,
+        "DEBMAXTURB": null,
+        "HAUTEUR": null,
+        "MES": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.417633669595365, 45.845638828011488]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM": "Barrage-usine de Champagneux",
+        "TITRE": "Cote retenue normale (217,00)",
+        "RETENUE": "217,00",
+        "MISEAJOUR": "DPE-F",
+        "VERSION": "18/03/2002",
+        "REF": "BC-BCHM",
+        "TYPE_OUV": 2.0,
+        "CHUTE": 7.0,
+        "REP1": 1.0,
+        "PRODUCTIBI": 324.0,
+        "IMAGES": "https://maps.cnr.tm.fr/imagescnr/phototheque/CNR_default_006345.jpg",
+        "AUTRES": null,
+        "PUISSANCE": null,
+        "TYPEGROUPE": null,
+        "NBGROUPE": null,
+        "DEBMAXTURB": null,
+        "HAUTEUR": null,
+        "MES": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.654840759138848, 45.635615866990307]
+      }
+    }
+  ]
+}

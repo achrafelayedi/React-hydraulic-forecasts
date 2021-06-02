@@ -10,6 +10,9 @@ import {
 } from "react-leaflet";
 import noeud from "./../data/Noeud.json";
 import noeud_image from "./../img/noeud.png";
+import barrage_image from "./../img/ico_barrage.png";
+import usine_image from "./../img/usine.png";
+import PK_image from "./../img/PK.png";
 import modele from "./../data/Modele_sault_brenaz.json";
 import casier from "./../data/casier.json";
 import section from "./../data/section.json";
@@ -19,11 +22,30 @@ import branche_verte from "./../data/branche_verte.json";
 import branche_orange from "./../data/branche_orange.json";
 import branche_bleue_fonce from "./../data/branche_bleu_fonce.json";
 import Rhone from "./../data/Rhone.json";
+import barrage from "./../data/barrage.json";
+import usine from "./../data/usine.json";
+import PK from "./../data/PK.json";
 
 function Macarte() {
-  console.log(noeud);
+  console.log(barrage);
+
   const noeud_icon = L.icon({
     iconUrl: noeud_image,
+    iconSize: [10, 10],
+  });
+
+  const barrage_icon = L.icon({
+    iconUrl: barrage_image,
+    iconSize: [20, 20],
+  });
+
+  const usine_icon = L.icon({
+    iconUrl: usine_image,
+    iconSize: [20, 20],
+  });
+
+  const PK_icon = L.icon({
+    iconUrl: PK_image,
     iconSize: [10, 10],
   });
 
@@ -177,6 +199,91 @@ function Macarte() {
             <div>
               {/*<h1> {"Nom modèle : " + data_noeud.properties.Nom_modele} </h1>*/}
               <h1> {"Noeud : " + data_noeud.properties.NOM} </h1>
+            </div>
+          </Popup>
+        </Marker>
+      ))}
+      {PK.features.map((data_PK) => (
+        <Marker
+          icon={PK_icon}
+          position={{
+            lat: data_PK.geometry.coordinates[1],
+            lng: data_PK.geometry.coordinates[0],
+          }}
+        >
+          <Popup>
+            <div>
+              {/*<h1> {"Nom modèle : " + data_noeud.properties.Nom_modele} </h1>*/}
+              <h1> {data_PK.properties.VPRO_A_NOM} </h1>
+            </div>
+          </Popup>
+        </Marker>
+      ))}
+      {barrage.features.map((data_barrage) => (
+        <Marker
+          icon={barrage_icon}
+          position={{
+            lat: data_barrage.geometry.coordinates[1],
+            lng: data_barrage.geometry.coordinates[0],
+          }}
+        >
+          <Popup>
+            <div>
+              <h1>{data_barrage.properties.NOM}</h1>
+              <table>
+                <thead>
+                  <tr>
+                    <th> {"Titre : " + data_barrage.properties.TITRE}</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th> {"Retenue : " + data_barrage.properties.RETENUE} </th>
+                  </tr>
+                  <tr>
+                    <th> {"Version : " + data_barrage.properties.VERSION} </th>
+                  </tr>
+                  <tr>
+                    <th> {"Ref : " + data_barrage.properties.REF} </th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </Popup>
+        </Marker>
+      ))}
+      {usine.features.map((data_usine) => (
+        <Marker
+          icon={usine_icon}
+          position={{
+            lat: data_usine.geometry.coordinates[1],
+            lng: data_usine.geometry.coordinates[0],
+          }}
+        >
+          <Popup>
+            <div>
+              <h1>{data_usine.properties.NOM}</h1>
+              <table>
+                <thead>
+                  <tr>
+                    <th> {"Puissance : " + data_usine.properties.PUISSANCE}</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th>
+                      {" "}
+                      {"Type ouvrage : " + data_usine.properties.TYPE_OUV}{" "}
+                    </th>
+                  </tr>
+                  <tr>
+                    <th> {"Version : " + data_usine.properties.VERSION} </th>
+                  </tr>
+                  <tr>
+                    <th> {"Ref : " + data_usine.properties.REF} </th>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </Popup>
         </Marker>

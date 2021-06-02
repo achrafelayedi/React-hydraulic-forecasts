@@ -1,0 +1,64 @@
+{
+  "type": "FeatureCollection",
+  "name": "usine",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM": "Usine de Porcieu-Amblagnieu",
+        "TITRE": null,
+        "RETENUE": null,
+        "MISEAJOUR": "DPE-F",
+        "VERSION": "18/03/2002",
+        "REF": "SB-UPOR",
+        "TYPE_OUV": 1.0,
+        "CHUTE": 8.0,
+        "REP1": 1.0,
+        "PRODUCTIBI": 249.0,
+        "IMAGES": "https://maps.cnr.tm.fr/imagescnr/phototheque/CNR_default_000739.jpg",
+        "AUTRES": null,
+        "PUISSANCE": 45.0,
+        "TYPEGROUPE": "Bulbe r?®glant",
+        "NBGROUPE": 2.0,
+        "DEBMAXTURB": 700.0,
+        "HAUTEUR": 7.5,
+        "MES": "1986-01-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.4059174799868, 45.853248444701499]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM": "Usine de Brégnier-Cordon",
+        "TITRE": null,
+        "RETENUE": null,
+        "MISEAJOUR": "DPE-F",
+        "VERSION": "18/03/2002",
+        "REF": "BC-UBRE",
+        "TYPE_OUV": 1.0,
+        "CHUTE": 7.0,
+        "REP1": 1.0,
+        "PRODUCTIBI": 324.0,
+        "IMAGES": "https://maps.cnr.tm.fr/imagescnr/phototheque/CNR_default_000738.jpg",
+        "AUTRES": null,
+        "PUISSANCE": 2.0,
+        "TYPEGROUPE": "Bulbe r?®glant",
+        "NBGROUPE": 2.0,
+        "DEBMAXTURB": 700.0,
+        "HAUTEUR": 13.7,
+        "MES": "1983-01-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.60413552428174, 45.654091137396598]
+      }
+    }
+  ]
+}
