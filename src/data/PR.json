@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "name": "PR",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "VPRO_N_PK": -78.0,
+        "VPRO_A_NOM": "PR1_SB: 78.000",
+        "VPRO_N_POS": 845471.97,
+        "VPRO_N_PO0": 88234.18,
+        "VPRO_N_PO1": 845250.6,
+        "VPRO_N_PO2": 88013.97,
+        "VPRO_N_DIS": 156.0,
+        "VPRO_N_LAM": 2.0,
+        "VOUV_A_NOM": "RETENUE",
+        "VAME_A_NOM": "08-SAULT-BRENAZ",
+        "VORG_A_NOM": "BELLEY",
+        "VZON_A_NOM": "HAUT RHONE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.491943374768358, 45.750090698926741]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "VPRO_N_PK": -63.7,
+        "VPRO_A_NOM": "PR2_SB: 63.700",
+        "VPRO_N_POS": 839375.03,
+        "VPRO_N_PO0": 98549.87,
+        "VPRO_N_PO1": 839096.23,
+        "VPRO_N_PO2": 98519.86,
+        "VPRO_N_DIS": 100.0,
+        "VPRO_N_LAM": 2.0,
+        "VOUV_A_NOM": "RETENUE",
+        "VAME_A_NOM": "08-SAULT-BRENAZ",
+        "VORG_A_NOM": "BELLEY",
+        "VZON_A_NOM": "HAUT RHONE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.4193695, 45.8445019]
+      }
+    }
+  ]
+}

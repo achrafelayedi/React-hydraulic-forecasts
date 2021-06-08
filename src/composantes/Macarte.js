@@ -13,6 +13,8 @@ import noeud_image from "./../img/noeud.png";
 import barrage_image from "./../img/ico_barrage.png";
 import usine_image from "./../img/usine.png";
 import PK_image from "./../img/PK.png";
+import PR_image from "./../img/PR_icon.png";
+import station_hydro_image from "./../img/pont.png";
 import modele from "./../data/Modele_sault_brenaz.json";
 import casier from "./../data/casier.json";
 import section from "./../data/section.json";
@@ -25,6 +27,8 @@ import Rhone from "./../data/Rhone.json";
 import barrage from "./../data/barrage.json";
 import usine from "./../data/usine.json";
 import PK from "./../data/PK.json";
+import PR from "./../data/PR.json";
+import station_hydro from "./../data/station_hydro.json";
 
 function Macarte() {
   console.log(barrage);
@@ -47,6 +51,16 @@ function Macarte() {
   const PK_icon = L.icon({
     iconUrl: PK_image,
     iconSize: [10, 10],
+  });
+
+  const PR_icon = L.icon({
+    iconUrl: PR_image,
+    iconSize: [15, 15],
+  });
+
+  const station_hydro_icon = L.icon({
+    iconUrl: station_hydro_image,
+    iconSize: [20, 20],
   });
 
   function modele_style() {
@@ -215,6 +229,38 @@ function Macarte() {
             <div>
               {/*<h1> {"Nom modèle : " + data_noeud.properties.Nom_modele} </h1>*/}
               <h1> {data_PK.properties.VPRO_A_NOM} </h1>
+            </div>
+          </Popup>
+        </Marker>
+      ))}
+      {PR.features.map((data_PR) => (
+        <Marker
+          icon={PR_icon}
+          position={{
+            lat: data_PR.geometry.coordinates[1],
+            lng: data_PR.geometry.coordinates[0],
+          }}
+        >
+          <Popup>
+            <div>
+              {/*<h1> {"Nom modèle : " + data_noeud.properties.Nom_modele} </h1>*/}
+              <h1> {data_PR.properties.VPRO_A_NOM} </h1>
+            </div>
+          </Popup>
+        </Marker>
+      ))}
+      {station_hydro.features.map((data_station_hydro) => (
+        <Marker
+          icon={station_hydro_icon}
+          position={{
+            lat: data_station_hydro.geometry.coordinates[1],
+            lng: data_station_hydro.geometry.coordinates[0],
+          }}
+        >
+          <Popup>
+            <div>
+              {/*<h1> {"Nom modèle : " + data_noeud.properties.Nom_modele} </h1>*/}
+              <h1> {data_station_hydro.properties.STA_NOM} </h1>
             </div>
           </Popup>
         </Marker>
