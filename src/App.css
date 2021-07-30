@@ -2,3 +2,67 @@
   width: 100%;
   height: 100vh;
 }
+
+.date-picker {
+  margin-left: 680px;
+}
+
+.app-bar {
+  background-color: #1b1f21;
+  padding: 15px 15px;
+}
+
+.app-bar-title {
+  font-family: "Bangers", cursive;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  word-spacing: 6px;
+}
+
+.app-section {
+  margin-top: 2rem;
+}
+
+.top-margin-small {
+  margin-top: 2rem;
+}
+
+.card-selector {
+  width: 10%;
+}
+
+.top-margin-small {
+  margin-top: 2rem;
+}
+.chartP84600 {
+  display: block;
+  box-sizing: border-box;
+  height: 300px;
+  width: 700px;
+}
+.chartPTGROLE {
+  display: block;
+  box-sizing: border-box;
+  height: 300px;
+  width: 700px;
+}
+.chartP84800 {
+  display: block;
+  box-sizing: border-box;
+  height: 300px;
+  width: 700px;
+}
+
+.angry-joe {
+  color: #999;
+}
+
+.angry-joe:hover {
+  color: crimson;
+}
+
+.ico-angry-joe {
+  font-size: 5rem;
+}

@@ -1,0 +1,53 @@
+﻿{
+  "res": [
+    {
+      "id_section": "1",
+      "Nom de la section": "P84.600",
+      "Heure": "5/5/21 17:00",
+      "Debit ": "1000",
+      "Cote": "200"
+    },
+    {
+      "id_section": "1",
+      "Nom de la section": "P84.600",
+      "Heure": "5/5/21 18:00",
+      "Debit ": "1010",
+      "Cote": "192.05"
+    },
+    {
+      "id_section": "1",
+      "Nom de la section": "P84.600",
+      "Heure": "5/5/21 19:00",
+      "Debit ": "1020",
+      "Cote": "300"
+    },
+    {
+      "id_section": "1",
+      "Nom de la section": "P84.600",
+      "Heure": "5/5/21 20:00",
+      "Debit ": "1030",
+      "Cote": "320"
+    },
+    {
+      "id_section": "1",
+      "Nom de la section": "P84.600",
+      "Heure": "5/5/21 21:00",
+      "Debit ": "1040",
+      "Cote": "220"
+    },
+    {
+      "id_section": "1",
+      "Nom de la section": "P84.600",
+      "Heure": "5/5/21 22:00",
+      "Debit ": "1050",
+      "Cote": "120"
+    },
+    {
+      "id_section": "2",
+      "Nom de la section": "P84.800",
+      "Heure": "5/5/21 17:00",
+      "Debit ": "1000",
+      "Cote": "310"
+    }
+  ]
+}

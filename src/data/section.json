@@ -11248,7 +11248,8 @@
         "Nom_modele": "CNRSBL93_042013",
         "Section_am": 3,
         "Shape_Leng": 333.21680609700002,
-        "NOM": "P84.600"
+        "NOM": "P84.600",
+        "id_section": "1"
       },
       "geometry": {
         "type": "MultiLineString",
@@ -11347,7 +11348,8 @@
         "Nom_modele": "CNRSBL93_042013",
         "Section_am": 3,
         "Shape_Leng": 336.15462632800001,
-        "NOM": "P84.800"
+        "NOM": "P84.800",
+        "id_section": "3"
       },
       "geometry": {
         "type": "MultiLineString",
@@ -33932,7 +33934,8 @@
         "Nom_modele": "CNRSBL93_042013",
         "Section_am": 3,
         "Shape_Leng": 199.48093271799999,
-        "NOM": "PTGROLE"
+        "NOM": "PTGROLE",
+        "id_section": "2"
       },
       "geometry": {
         "type": "MultiLineString",

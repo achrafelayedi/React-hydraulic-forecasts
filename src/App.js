@@ -1,21 +1,24 @@
 //import logo from './logo.svg';
 //import react from "react";
 //import {MapContainer, TileLayer} from 'react-leaflet';
-import { MapContainer, TileLayer, GeoJSON, Marker, Popup } from "react-leaflet";
+
 import "./App.css";
-import Mymap from "./components/Mymap";
+//import Mymap from "./components/Mymap";
 import Macarte from "./composantes/Macarte";
+//import Graphe from "./composantes/Graphe";
+import Calendar from "./composantes/Calendar";
+import ExclReader from "./composantes/ExclReader";
+//import Testgraphe from "./composantes/Testgraphe";
+import Comobox from "./composantes/Comobox";
 
 function App() {
   return (
     <div className="App">
+      <ExclReader />
+      <Calendar />
+      {/* <Graphe /> */}
+      <Comobox />
       <Macarte />
-      {/*  <MapContainer center={[45.6936, 5.52826]} zoom={13}>
-        <TileLayer
-          attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        />
-      </MapContainer> */}
     </div>
   );
 }

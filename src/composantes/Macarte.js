@@ -29,9 +29,10 @@ import usine from "./../data/usine.json";
 import PK from "./../data/PK.json";
 import PR from "./../data/PR.json";
 import station_hydro from "./../data/station_hydro.json";
+import Calendar from "./Calendar";
 
 function Macarte() {
-  console.log(barrage);
+  //console.log(barrage);
 
   const noeud_icon = L.icon({
     iconUrl: noeud_image,
@@ -163,36 +164,14 @@ function Macarte() {
 
   function onEachSection(section, layer) {
     layer.bindPopup(section.properties.NOM);
+
+    layer.on({
+      click: (event) => {
+        return event.target.feature.properties.NOM;
+      },
+    });
   }
 
-  /*   function onEachBranche(branche, lay) {
-    lay.bindPopup(
-      "<table><thead><tr><th>Branches de Sault-Brénaz</th></tr></thead><tbody></table><tbody><tr><td>Nom modèle : </td><td>" +
-        branche.properties.Nom_modele +
-        "<br></td></tr><tr><td>Type branche : </td><td>" +
-        branche.properties.Type_branc +
-        "</td></tr></tbody><br></td></tr><tr><td>Longueur : </td><td>" +
-        branche.properties.Longueur +
-        "</td></tr></tbody><br></td></tr><tr><td>Section_am : </td><td>" +
-        branche.properties.Section_am +
-        "</td></tr></tbody><br></td></tr><tr><td>Shape_Leng : </td><td>" +
-        branche.properties.Shape_Leng +
-        "</td></tr></tbody><br></td></tr><tr><td>Enabled : </td><td>" +
-        branche.properties.Enabled +
-        "</td></tr></tbody><br></td></tr><tr><td>NOM : </td><td>" +
-        branche.properties.NOM +
-        "</td></tr></tbody><br></td></tr><tr><td>Nom_noeud_ :</td><td>" +
-        branche.properties.Nom_noeud_ +
-        "</td></tr></tbody><br></td></tr><tr><td>Nom_noeud1 : </td><td>" +
-        branche.properties.Nom_noeud1 +
-        "</td></tr></tbody>"
-    );
-  } */
-
-  //noeud_geojson.addTo(map)
-  /*   const iconNoeud = new L.Icon({
-    iconUrl: require("./../img/noeud.png"),
-  }); */
   return (
     <MapContainer className="map" center={[45.7133, 5.52826]} zoom={11}>
       <LayersControl position="topright" />

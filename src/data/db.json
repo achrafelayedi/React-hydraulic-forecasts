@@ -1,0 +1,144 @@
+{
+  "res": [
+    {
+      "id_prev": "1",
+      "Heure": "5/5/21 17:00",
+      "Debit": "1000",
+      "Cote": "100",
+      "id_section": "1"
+    },
+    {
+      "id_prev": "2",
+      "Heure": "5/5/21 18:00",
+      "Debit": "450",
+      "Cote": "200",
+      "id_section": "1"
+    },
+    {
+      "id_prev": "3",
+      "Heure": "5/5/21 19:00",
+      "Debit": "300",
+      "Cote": "120",
+      "id_section": "1"
+    },
+    {
+      "id_prev": "3",
+      "Heure": "5/5/21 21:00",
+      "Debit": "300",
+      "Cote": "240",
+      "id_section": "1"
+    },
+    {
+      "id_prev": "3",
+      "Heure": "5/5/21 22:00",
+      "Debit": "460",
+      "Cote": "630",
+      "id_section": "1"
+    },
+    {
+      "id_prev": "3",
+      "Heure": "5/5/21 23:00",
+      "Debit": "300",
+      "Cote": "120",
+      "id_section": "1"
+    },
+    {
+      "id_prev": "4",
+      "Heure": "5/5/21 20:00",
+      "Debit": "542",
+      "Cote": "100",
+      "id_section": "2"
+    },
+    {
+      "id_prev": "5",
+      "Heure": "5/5/21 21:00",
+      "Debit": "230",
+      "Cote": "200",
+      "id_section": "2"
+    },
+    {
+      "id_prev": "6",
+      "Heure": "5/5/21 22:00",
+      "Debit": "600",
+      "Cote": "120",
+      "id_section": "2"
+    },
+    {
+      "id_prev": "6",
+      "Heure": "5/5/21 22:00",
+      "Debit": "488",
+      "Cote": "30",
+      "id_section": "2"
+    },
+    {
+      "id_prev": "6",
+      "Heure": "5/5/21 22:00",
+      "Debit": "220",
+      "Cote": "120",
+      "id_section": "2"
+    },
+    {
+      "id_prev": "6",
+      "Heure": "5/5/21 22:00",
+      "Debit": "600",
+      "Cote": "120",
+      "id_section": "2"
+    },
+    {
+      "id_prev": "7",
+      "Heure": "5/5/21 08:00",
+      "Debit": "1500",
+      "Cote": "120",
+      "id_section": "3"
+    },
+    {
+      "id_prev": "8",
+      "Heure": "5/5/21 09:00",
+      "Debit": "482",
+      "Cote": "120",
+      "id_section": "3"
+    },
+    {
+      "id_prev": "9",
+      "Heure": "5/5/21 10:00",
+      "Debit": "456",
+      "Cote": "120",
+      "id_section": "3"
+    },
+    {
+      "id_prev": "9",
+      "Heure": "5/5/21 11:00",
+      "Debit": "456",
+      "Cote": "120",
+      "id_section": "3"
+    },
+    {
+      "id_prev": "9",
+      "Heure": "5/5/21 12:00",
+      "Debit": "456",
+      "Cote": "120",
+      "id_section": "3"
+    },
+    {
+      "id_prev": "9",
+      "Heure": "5/5/21 13:00",
+      "Debit": "456",
+      "Cote": "120",
+      "id_section": "3"
+    }
+  ],
+  "section": [
+    {
+      "id_section": "1",
+      "nom_section": "P84.600"
+    },
+    {
+      "id_section": "2",
+      "nom_section": "PTGROLE"
+    },
+    {
+      "id_section": "3",
+      "nom_section": "P84.800"
+    }
+  ]
+}
