@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/React-hydraulic-forecasts/static/css/main.7ed595fd.chunk.css",
+    "main.js": "/React-hydraulic-forecasts/static/js/main.ca04c8c5.chunk.js",
+    "main.js.map": "/React-hydraulic-forecasts/static/js/main.ca04c8c5.chunk.js.map",
+    "runtime-main.js": "/React-hydraulic-forecasts/static/js/runtime-main.c298d1a7.js",
+    "runtime-main.js.map": "/React-hydraulic-forecasts/static/js/runtime-main.c298d1a7.js.map",
+    "static/js/2.591e4216.chunk.js": "/React-hydraulic-forecasts/static/js/2.591e4216.chunk.js",
+    "static/js/2.591e4216.chunk.js.map": "/React-hydraulic-forecasts/static/js/2.591e4216.chunk.js.map",
+    "static/js/3.644c8793.chunk.js": "/React-hydraulic-forecasts/static/js/3.644c8793.chunk.js",
+    "static/js/3.644c8793.chunk.js.map": "/React-hydraulic-forecasts/static/js/3.644c8793.chunk.js.map",
+    "index.html": "/React-hydraulic-forecasts/index.html",
+    "static/css/main.7ed595fd.chunk.css.map": "/React-hydraulic-forecasts/static/css/main.7ed595fd.chunk.css.map",
+    "static/js/2.591e4216.chunk.js.LICENSE.txt": "/React-hydraulic-forecasts/static/js/2.591e4216.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c298d1a7.js",
+    "static/js/2.591e4216.chunk.js",
+    "static/css/main.7ed595fd.chunk.css",
+    "static/js/main.ca04c8c5.chunk.js"
+  ]
+}
