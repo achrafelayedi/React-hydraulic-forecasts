@@ -1,18 +1,13 @@
 import React, { Component, Fragment, useEffect, useState } from "react";
 import AngryJoe from "./AngryJoe";
-//import { Line } from "react-chartjs-2";
-import SectionP84600 from "./P84600";
-import SectionPTGROLE from "./SectionPTGROLE";
-import Section84800 from "./P84800";
-import Section63800 from "./Section63800";
-import Section638001 from "./Section638001";
-import Section638002 from "./Section638002";
-import Section638003 from "./Section638003";
+import Section78000 from "./Section78000";
+import Section780001 from "./Section780001";
+import Section780002 from "./Section780002";
 import Angry from "./../img/angry.png";
 
-class Comobox extends Component {
+class Comobox1 extends Component {
   state = {
-    selectedCardType: "P84.600",
+    selectedCardType: "P78.000",
   };
 
   render() {
@@ -41,9 +36,7 @@ class Comobox extends Component {
           className="card-selector form-control"
           onChange={(e) => this.setState({ selectedCardType: e.target.value })}
         >
-          {/* <option></option> */}
           <option>J</option>
-          <option>J-1</option>
           <option>J+1</option>
           <option>J+2</option>
         </select>
@@ -52,18 +45,16 @@ class Comobox extends Component {
   }
 
   renderSelectedCard(selectedCardType) {
-    /* if (!selectedCardType)
+    /*  if (!selectedCardType)
       return <AngryJoe text="Séléctionner un jour s'il vous plaît" />; */
-    if (selectedCardType === "J-1") {
-      return <Section638001 />;
-    } else if (selectedCardType === "J") {
-      return <Section63800 />;
+    if (selectedCardType === "J") {
+      return <Section78000 />;
     } else if (selectedCardType === "J+1") {
-      return <Section638002 />;
+      return <Section780001 />;
     } else if (selectedCardType === "J+2") {
-      return <Section638003 />;
-    } else return <Section63800 />;
+      return <Section780002 />;
+    } else return <Section78000 />;
   }
 }
 
-export default Comobox;
+export default Comobox1;

@@ -1,0 +1,23 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom_modele": "CNRSBL93_042013",
+        "Section_am": 3,
+        "Shape_Leng": 199.48093271799999,
+        "NOM": "PTGROLE",
+        "id_section": "2"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [5.549386607256738, 45.713340530224052, 0.0],
+            [5.548260682031538, 45.711726675586895, 0.0]
+          ]
+        ]
+      }
+    }
+  ]
+}

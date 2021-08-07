@@ -1,0 +1,22 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom_modele": "CNRSBL93_042013",
+        "Section_am": 1,
+        "Shape_Leng": 185.41744925399999,
+        "NOM": "PTCORDON"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [5.616828012046269, 45.624875543889189, 0.0],
+            [5.614738559312845, 45.624076612400913, 0.0]
+          ]
+        ]
+      }
+    }
+  ]
+}

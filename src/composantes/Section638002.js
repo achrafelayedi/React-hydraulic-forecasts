@@ -1,9 +1,8 @@
-import { defaults } from "react-chartjs-2";
 import React, { useEffect, useState } from "react";
 import { Line } from "react-chartjs-2";
 import axios from "axios";
 
-const P84600 = () => {
+const Section638002 = () => {
   const [chartData, setChartData] = useState({});
   /* const [Heure, setHeure] = useState([]);
   const [Debitt, setDebit] = useState([]);
@@ -15,7 +14,7 @@ const P84600 = () => {
     let heure = [];
 
     axios
-      .get("http://localhost:3000/res?id_section=1")
+      .get("http://localhost:3000/res?id_section=6")
       .then((res) => {
         console.log(res);
         for (const dataObj of res.data) {
@@ -32,6 +31,7 @@ const P84600 = () => {
               backgroundColor: "blue",
               borderColor: "blue",
               yAxisID: "y1",
+              borderDash: [1, 4],
             },
             {
               label: "Cote",
@@ -39,6 +39,7 @@ const P84600 = () => {
               backgroundColor: "#FF1493",
               borderColor: "#FF1493",
               yAxisID: "y2",
+              borderDash: [1, 4],
             },
           ],
         });
@@ -88,7 +89,7 @@ const P84600 = () => {
             title: {
               display: true,
               position: "top",
-              text: "Section 84.660 (P84.600)",
+              text: "Section 63.800 (P63.800)",
               font: {
                 size: 25,
               },
@@ -106,4 +107,4 @@ const P84600 = () => {
   );
 };
 
-export default P84600;
+export default Section638002;

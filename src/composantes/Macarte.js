@@ -3,6 +3,7 @@ import L from "leaflet";
 import {
   MapContainer,
   TileLayer,
+  Tooltip,
   GeoJSON,
   Marker,
   Popup,
@@ -18,6 +19,12 @@ import station_hydro_image from "./../img/pont.png";
 import modele from "./../data/Modele_sault_brenaz.json";
 import casier from "./../data/casier.json";
 import section from "./../data/section.json";
+import P63800 from "./../data/P63800.json";
+import P78000 from "./../data/P78000.json";
+import Section63800 from "./../composantes/Section63800";
+import P91250 from "./../data/P91250.json";
+import PTCORDON from "./../data/PTCORDON.json";
+import PTGROLE from "./../data/PTGROLE.json";
 import branche_bleue from "./../data/branche_bleue.json";
 import branche_marron from "./../data/branche_marron.json";
 import branche_verte from "./../data/branche_verte.json";
@@ -30,6 +37,11 @@ import PK from "./../data/PK.json";
 import PR from "./../data/PR.json";
 import station_hydro from "./../data/station_hydro.json";
 import Calendar from "./Calendar";
+import Comobox from "./Comobox";
+import Comobox1 from "./Comobox1";
+import Comobox2 from "./Comobox2";
+import Comobox3 from "./Comobox3";
+import Comobox4 from "./Comobox4";
 
 function Macarte() {
   //console.log(barrage);
@@ -165,11 +177,11 @@ function Macarte() {
   function onEachSection(section, layer) {
     layer.bindPopup(section.properties.NOM);
 
-    layer.on({
+    /* layer.on({
       click: (event) => {
         return event.target.feature.properties.NOM;
       },
-    });
+    }); */
   }
 
   return (
@@ -333,6 +345,42 @@ function Macarte() {
         data={section.features}
         onEachFeature={onEachSection}
       />
+      <GeoJSON style={section_style} data={P63800.features}>
+        <Popup className="popupP63800">
+          <div>
+            <Comobox />
+            {/* <Section63800 /> */}
+          </div>
+        </Popup>
+      </GeoJSON>
+      <GeoJSON style={section_style} data={P78000.features}>
+        <Popup className="popup78000">
+          <div>
+            <Comobox1 />
+          </div>
+        </Popup>
+      </GeoJSON>
+      <GeoJSON style={section_style} data={P91250.features}>
+        <Popup className="P91250">
+          <div>
+            <Comobox3 />
+          </div>
+        </Popup>
+      </GeoJSON>
+      <GeoJSON style={section_style} data={PTCORDON.features}>
+        <Popup className="PTCORDON">
+          <div>
+            <Comobox4 />
+          </div>
+        </Popup>
+      </GeoJSON>
+      <GeoJSON style={section_style} data={PTGROLE.features}>
+        <Popup className="PTGROSLE">
+          <div>
+            <Comobox2 />
+          </div>
+        </Popup>
+      </GeoJSON>
       <GeoJSON data={Rhone.features} />
       <GeoJSON style={branche_bleue_style} data={branche_bleue.features} />
       <GeoJSON style={branche_marron_style} data={branche_marron.features} />

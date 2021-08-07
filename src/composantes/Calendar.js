@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-//import DateTimeRangePicker from "@wojtekmaj/react-datetimerange-picker";
-import DatePicker from "react-date-picker";
+//import DatePicker from "react-date-picker";
+import DatePicker from "react-datepicker";
 
 class Calendar extends Component {
   state = {

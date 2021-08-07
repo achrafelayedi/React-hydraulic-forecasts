@@ -10,14 +10,15 @@ import Calendar from "./composantes/Calendar";
 import ExclReader from "./composantes/ExclReader";
 //import Testgraphe from "./composantes/Testgraphe";
 import Comobox from "./composantes/Comobox";
+import Loading from "./components/Loading";
 
 function App() {
   return (
     <div className="App">
-      <ExclReader />
-      <Calendar />
+      {/* <ExclReader /> */}
+      {/* <Calendar /> */}
       {/* <Graphe /> */}
-      <Comobox />
+      {/* <Comobox /> */}
       <Macarte />
     </div>
   );

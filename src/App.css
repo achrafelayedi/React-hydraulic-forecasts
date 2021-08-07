@@ -30,24 +30,14 @@
 }
 
 .card-selector {
-  width: 10%;
+  width: 15%;
 }
 
 .top-margin-small {
   margin-top: 2rem;
 }
-.chartP84600 {
-  display: block;
-  box-sizing: border-box;
-  height: 300px;
-  width: 700px;
-}
-.chartPTGROLE {
-  display: block;
-  box-sizing: border-box;
-  height: 300px;
-  width: 700px;
-}
+.chartP84600,
+.chartPTGROLE,
 .chartP84800 {
   display: block;
   box-sizing: border-box;
@@ -65,4 +55,16 @@
 
 .ico-angry-joe {
   font-size: 5rem;
+}
+
+.popupP63800,
+.popup78000,
+.PTGROSLE,
+.P91250,
+.PTCORDON {
+  width: 745px;
+}
+
+.leaflet-popup-content-wrapper {
+  background-color: #f8f9f9;
 }
