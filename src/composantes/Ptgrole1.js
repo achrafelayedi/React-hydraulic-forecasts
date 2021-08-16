@@ -64,6 +64,8 @@ const Ptgrole1 = () => {
           scales: {
             y1: {
               type: "linear",
+              min: 0,
+              max: 3500,
               position: "left",
               title: {
                 text: "Débit (m3/s)",
@@ -72,6 +74,8 @@ const Ptgrole1 = () => {
             },
             y2: {
               type: "linear",
+              min: 0,
+              max: 250,
               position: "right",
               title: {
                 text: "Cote (m)",
@@ -87,7 +91,7 @@ const Ptgrole1 = () => {
             title: {
               display: true,
               position: "top",
-              text: "Section Pont de GROSLEE (PTGROLE)",
+              text: "Section Pont de GROSLÉE (PTGROLE)",
               font: {
                 size: 25,
               },

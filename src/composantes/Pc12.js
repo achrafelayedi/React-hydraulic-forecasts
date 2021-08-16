@@ -2,23 +2,23 @@ import React, { useEffect, useState } from "react";
 import { Line } from "react-chartjs-2";
 import axios from "axios";
 
-const Ptcordon2 = () => {
+const Pc12 = () => {
   const [chartData, setChartData] = useState({});
   /* const [Heure, setHeure] = useState([]);
   const [Debitt, setDebit] = useState([]);
   const [Cotee, setCote] = useState([]); */
 
   const chart = () => {
-    let debit = [];
+    let volume = [];
     let cote = [];
     let heure = [];
 
     axios
-      .get("http://localhost:3000/res?id_section=19")
+      .get("http://localhost:3000/res?id_casier=23")
       .then((res) => {
         console.log(res);
         for (const dataObj of res.data) {
-          debit.push(parseInt(dataObj.Debit));
+          volume.push(parseInt(dataObj.Volume));
           cote.push(parseInt(dataObj.Cote));
           heure.push(dataObj.Heure);
         }
@@ -26,10 +26,11 @@ const Ptcordon2 = () => {
           labels: heure,
           datasets: [
             {
-              label: "Débit",
-              data: debit,
+              label: "Volume",
+              data: volume,
               backgroundColor: "blue",
               borderColor: "blue",
+              borderDash: [1, 4],
               yAxisID: "y1",
             },
             {
@@ -37,6 +38,7 @@ const Ptcordon2 = () => {
               data: cote,
               backgroundColor: "#FF1493",
               borderColor: "#FF1493",
+              borderDash: [1, 4],
               yAxisID: "y2",
             },
           ],
@@ -45,7 +47,7 @@ const Ptcordon2 = () => {
       .catch((err) => {
         console.log(err);
       });
-    console.log(heure, debit, cote);
+    console.log(heure, volume, cote);
   };
 
   useEffect(() => {
@@ -64,19 +66,19 @@ const Ptcordon2 = () => {
           scales: {
             y1: {
               type: "linear",
-              min: 0,
-              max: 3500,
               position: "left",
+              min: 0,
+              max: 10,
               title: {
-                text: "Débit (m3/s)",
+                text: "Volume (m3)",
                 display: true,
               },
             },
             y2: {
               type: "linear",
+              position: "right",
               min: 0,
               max: 250,
-              position: "right",
               title: {
                 text: "Cote (m)",
                 display: true,
@@ -91,7 +93,7 @@ const Ptcordon2 = () => {
             title: {
               display: true,
               position: "top",
-              text: "Section Pont de Cordon (P97.700)",
+              text: "Casier PC1_2",
               font: {
                 size: 25,
               },
@@ -109,4 +111,4 @@ const Ptcordon2 = () => {
   );
 };
 
-export default Ptcordon2;
+export default Pc12;

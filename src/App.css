@@ -61,7 +61,9 @@
 .popup78000,
 .PTGROSLE,
 .P91250,
-.PTCORDON {
+.PTCORDON,
+.popupPc11,
+.popupPc12 {
   width: 745px;
 }
 

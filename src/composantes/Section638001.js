@@ -64,6 +64,8 @@ const Section638001 = () => {
           scales: {
             y1: {
               type: "linear",
+              min: 0,
+              max: 3500,
               position: "left",
               title: {
                 text: "Débit (m3/s)",
@@ -72,6 +74,8 @@ const Section638001 = () => {
             },
             y2: {
               type: "linear",
+              min: 0,
+              max: 250,
               position: "right",
               title: {
                 text: "Cote (m)",

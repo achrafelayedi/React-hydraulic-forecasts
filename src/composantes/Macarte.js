@@ -18,6 +18,12 @@ import PR_image from "./../img/PR_icon.png";
 import station_hydro_image from "./../img/pont.png";
 import modele from "./../data/Modele_sault_brenaz.json";
 import casier from "./../data/casier.json";
+import Pc11 from "./../data/Pc11.json";
+import Pc12 from "./../data/Pc12.json";
+import Pc13 from "./../data/Pc13.json";
+import Pc21 from "./../data/Pc21.json";
+import Pc22 from "./../data/Pc22.json";
+import Pc23 from "./../data/Pc23.json";
 import section from "./../data/section.json";
 import P63800 from "./../data/P63800.json";
 import P78000 from "./../data/P78000.json";
@@ -42,10 +48,14 @@ import Comobox1 from "./Comobox1";
 import Comobox2 from "./Comobox2";
 import Comobox3 from "./Comobox3";
 import Comobox4 from "./Comobox4";
+import Comobox5 from "./Comobox5";
+import Comobox6 from "./Comobox6";
+import Comobox7 from "./Comobox7";
+import Comobox8 from "./Comobox8";
+import Comobox9 from "./Comobox9";
+import Comobox10 from "./Comobox10";
 
 function Macarte() {
-  //console.log(barrage);
-
   const noeud_icon = L.icon({
     iconUrl: noeud_image,
     iconSize: [10, 10],
@@ -183,6 +193,21 @@ function Macarte() {
       },
     }); */
   }
+
+  /*   
+  <LayersControl.BaseLayer checked name="OpenStreetMap.Mapnik">
+        <TileLayer
+          attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        />
+      </LayersControl.BaseLayer>
+      <LayersControl.BaseLayer name="OpenStreetMap.BlackAndWhite">
+        <TileLayer
+          attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+          url="https://tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png"
+        />
+      </LayersControl.BaseLayer>
+  */
 
   return (
     <MapContainer className="map" center={[45.7133, 5.52826]} zoom={11}>
@@ -340,6 +365,48 @@ function Macarte() {
         data={casier.features}
         onEachFeature={onEachCasier}
       />
+      <GeoJSON style={casier_style} data={Pc11.features}>
+        <Popup className="popupPc11">
+          <div>
+            <Comobox5 />
+          </div>
+        </Popup>
+      </GeoJSON>
+      <GeoJSON style={casier_style} data={Pc12.features}>
+        <Popup className="popupPc12">
+          <div>
+            <Comobox6 />
+          </div>
+        </Popup>
+      </GeoJSON>
+      <GeoJSON style={casier_style} data={Pc13.features}>
+        <Popup className="popupPc12">
+          <div>
+            <Comobox7 />
+          </div>
+        </Popup>
+      </GeoJSON>
+      <GeoJSON style={casier_style} data={Pc21.features}>
+        <Popup className="popupPc12">
+          <div>
+            <Comobox8 />
+          </div>
+        </Popup>
+      </GeoJSON>
+      <GeoJSON style={casier_style} data={Pc22.features}>
+        <Popup className="popupPc12">
+          <div>
+            <Comobox9 />
+          </div>
+        </Popup>
+      </GeoJSON>
+      <GeoJSON style={casier_style} data={Pc23.features}>
+        <Popup className="popupPc12">
+          <div>
+            <Comobox10 />
+          </div>
+        </Popup>
+      </GeoJSON>
       <GeoJSON
         style={section_style}
         data={section.features}

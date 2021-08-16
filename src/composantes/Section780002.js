@@ -31,6 +31,7 @@ const Section780002 = () => {
               backgroundColor: "blue",
               borderColor: "blue",
               yAxisID: "y1",
+              borderDash: [1, 4],
             },
             {
               label: "Cote",
@@ -38,6 +39,7 @@ const Section780002 = () => {
               backgroundColor: "#FF1493",
               borderColor: "#FF1493",
               yAxisID: "y2",
+              borderDash: [1, 4],
             },
           ],
         });
@@ -64,6 +66,8 @@ const Section780002 = () => {
           scales: {
             y1: {
               type: "linear",
+              min: 0,
+              max: 3500,
               position: "left",
               title: {
                 text: "Débit (m3/s)",
@@ -72,6 +76,8 @@ const Section780002 = () => {
             },
             y2: {
               type: "linear",
+              min: 0,
+              max: 250,
               position: "right",
               title: {
                 text: "Cote (m)",
