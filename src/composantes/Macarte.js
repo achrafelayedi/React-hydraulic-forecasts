@@ -54,6 +54,8 @@ import Comobox7 from "./Comobox7";
 import Comobox8 from "./Comobox8";
 import Comobox9 from "./Comobox9";
 import Comobox10 from "./Comobox10";
+//import Navbar from "./Navbar";
+//import Legend from "./Legend";
 
 function Macarte() {
   const noeud_icon = L.icon({

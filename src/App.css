@@ -1,6 +1,100 @@
 .leaflet-container {
-  width: 100%;
+  width: 93.5%;
   height: 100vh;
+  margin-left: 100px;
+}
+
+.navigation {
+  background: white;
+  width: 6.5%;
+  height: 100%;
+  max-width: 125px;
+  display: block;
+  position: absolute;
+  z-index: 8;
+  left: 0;
+}
+
+.infoLogiciels {
+  position: absolute;
+  bottom: 1%;
+  color: #009ead;
+  text-align: center;
+  background-color: #fff;
+  width: 100%;
+}
+
+.imgcnr {
+  padding-top: 50%;
+  height: 80px;
+}
+
+h1 {
+  color: #7c795d;
+  font-family: serif;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 24px;
+  margin: 0;
+  text-align: center;
+  padding-bottom: 30%;
+}
+
+.animation-tempo {
+  background-color: #f6f5f9;
+  border: 2px solid;
+}
+
+p {
+  text-align: center;
+  margin-left: 4px;
+}
+
+.bloc-timer1 {
+  margin-left: 25px;
+}
+
+.button-start-pause {
+  margin-left: 8px;
+}
+
+.button-reset {
+  margin-left: 20px;
+}
+
+.time-container {
+  font-size: 18px;
+  text-align: center;
+}
+
+.membre {
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #32cd32;
+  margin: 15px;
+  line-height: 40px;
+}
+
+.web_gis_OSCAR {
+  font-size: 0.7em;
+  font-weight: bold;
+  color: black;
+  margin: 5px;
+  line-height: 20px;
+}
+
+.version {
+  font-size: 0.7em;
+  font-weight: bold;
+  color: black;
+  margin: 15px;
+  line-height: 20px;
+}
+
+.img_uk_fr {
+  margin-top: 4px;
+  margin-left: 17px;
+  vertical-align: baseline;
 }
 
 .date-picker {
@@ -69,4 +163,12 @@
 
 .leaflet-popup-content-wrapper {
   background-color: #f8f9f9;
+}
+
+.leaflet-control-layers {
+  background-image: url("./img/imagerie.png");
+}
+
+.leaflet-control-layers-base {
+  background-color: #f0f8ff;
 }

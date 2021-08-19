@@ -11,6 +11,10 @@ import ExclReader from "./composantes/ExclReader";
 //import Testgraphe from "./composantes/Testgraphe";
 import Comobox from "./composantes/Comobox";
 import Loading from "./components/Loading";
+import Macarte1 from "./composantes/Macarte1";
+import Navbar from "./composantes/Navbar";
+import Decoration from "./composantes/Decoration";
+//import Testy from "./composantes/Testy";
 
 function App() {
   return (
@@ -19,7 +23,9 @@ function App() {
       {/* <Calendar /> */}
       {/* <Graphe /> */}
       {/* <Comobox /> */}
-      <Macarte />
+      {/* <Navbar /> */}
+      <Decoration />
+      <Macarte1 />
     </div>
   );
 }
