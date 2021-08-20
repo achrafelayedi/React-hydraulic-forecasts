@@ -56,8 +56,17 @@ import Comobox8 from "./Comobox8";
 import Comobox9 from "./Comobox9";
 import Comobox10 from "./Comobox10";
 //import test_polygon from "./../data/test_polygon.json";
-import Navbar from "./Navbar";
-import { Layer } from "leaflet";
+import Comobox11 from "./Comobox11";
+import Comobox12 from "./Comobox12";
+import Comobox13 from "./Comobox13";
+import Comobox14 from "./Comobox14";
+import Comobox15 from "./Comobox15";
+import Comobox16 from "./Comobox16";
+import Comobox17 from "./Comobox17";
+import Comobox18 from "./Comobox18";
+import Comobox19 from "./Comobox19";
+import Comobox20 from "./Comobox20";
+import Comobox21 from "./Comobox21";
 
 const { BaseLayer, Overlay } = LayersControl;
 
@@ -410,7 +419,8 @@ export default class Macarte1 extends Component {
         >
           <Popup className="popupPc11">
             <div>
-              <Comobox5 />
+              {/* <Comobox5 /> */}
+              <Comobox16 />
             </div>
           </Popup>
         </GeoJSON>
@@ -421,7 +431,8 @@ export default class Macarte1 extends Component {
         >
           <Popup className="popupPc12">
             <div>
-              <Comobox6 />
+              {/* <Comobox6 /> */}
+              <Comobox17 />
             </div>
           </Popup>
         </GeoJSON>
@@ -432,7 +443,8 @@ export default class Macarte1 extends Component {
         >
           <Popup className="popupPc12">
             <div>
-              <Comobox7 />
+              {/* <Comobox7 /> */}
+              <Comobox18 />
             </div>
           </Popup>
         </GeoJSON>
@@ -443,7 +455,8 @@ export default class Macarte1 extends Component {
         >
           <Popup className="popupPc12">
             <div>
-              <Comobox8 />
+              {/* <Comobox8 /> */}
+              <Comobox19 />
             </div>
           </Popup>
         </GeoJSON>
@@ -454,7 +467,8 @@ export default class Macarte1 extends Component {
         >
           <Popup className="popupPc12">
             <div>
-              <Comobox9 />
+              {/* <Comobox9 /> */}
+              <Comobox20 />
             </div>
           </Popup>
         </GeoJSON>
@@ -465,7 +479,8 @@ export default class Macarte1 extends Component {
         >
           <Popup className="popupPc12">
             <div>
-              <Comobox10 />
+              {/* <Comobox10 /> */}
+              <Comobox21 />
             </div>
           </Popup>
         </GeoJSON>
@@ -477,36 +492,40 @@ export default class Macarte1 extends Component {
         <GeoJSON style={section_style} data={P63800.features}>
           <Popup className="popupP63800">
             <div>
-              <Comobox />
-              {/* <Section63800 /> */}
+              {/* <Comobox /> */}
+              <Comobox11 />
             </div>
           </Popup>
         </GeoJSON>
         <GeoJSON style={section_style} data={P78000.features}>
           <Popup className="popup78000">
             <div>
-              <Comobox1 />
+              {/* <Comobox1 /> */}
+              <Comobox12 />
             </div>
           </Popup>
         </GeoJSON>
         <GeoJSON style={section_style} data={P91250.features}>
           <Popup className="P91250">
             <div>
-              <Comobox3 />
+              {/* <Comobox3 /> */}
+              <Comobox14 />
             </div>
           </Popup>
         </GeoJSON>
         <GeoJSON style={section_style} data={PTCORDON.features}>
           <Popup className="PTCORDON">
             <div>
-              <Comobox4 />
+              {/* <Comobox4 /> */}
+              <Comobox15 />
             </div>
           </Popup>
         </GeoJSON>
         <GeoJSON style={section_style} data={PTGROLE.features}>
           <Popup className="PTGROSLE">
             <div>
-              <Comobox2 />
+              {/* <Comobox2 /> */}
+              <Comobox13 />
             </div>
           </Popup>
         </GeoJSON>

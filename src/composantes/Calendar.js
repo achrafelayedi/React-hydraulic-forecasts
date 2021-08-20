@@ -1,10 +1,11 @@
 import React, { Component } from "react";
-//import DatePicker from "react-date-picker";
-import DatePicker from "react-datepicker";
+import DatePicker from "react-date-picker";
+//import DatePicker from "react-datepicker";
 
 class Calendar extends Component {
   state = {
     date: new Date(),
+    //date: "12/05/2021",
   };
 
   onChange = (date) => {
@@ -17,7 +18,6 @@ class Calendar extends Component {
     return (
       <div className="date-picker">
         <DatePicker onChange={this.onChange} value={this.state.date} />
-        {/* <p>Date choisie: {this.state.date.toLocaleDateString()} </p> */}
       </div>
     );
   }

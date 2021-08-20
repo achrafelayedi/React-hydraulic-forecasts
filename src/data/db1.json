@@ -1,0 +1,626 @@
+{
+  "res": [
+    {
+      "Heure": "11/05/2021 00:00",
+      "Debit_observe": "",
+      "Debit_prevu": "",
+      "Cote_observe": "202.604",
+      "Cote_prevue": "",
+      "id_section": "0"
+    },
+    {
+      "Heure": "11/05/2021 12:00",
+      "Debit_observe": "",
+      "Debit_prevu": "",
+      "Cote_observe": "202.6359",
+      "Cote_prevue": "",
+      "id_section": "0"
+    },
+    {
+      "Heure": "12/05/2021 00:00",
+      "Debit_observe": "",
+      "Debit_prevu": "",
+      "Cote_observe": "202.6771",
+      "Cote_prevue": "",
+      "id_section": "0"
+    },
+    {
+      "Heure": "12/05/2021 10:00",
+      "Debit_observe": "",
+      "Debit_prevu": "1894.53",
+      "Cote_observe": "202.7105",
+      "Cote_prevue": "202.7105",
+      "id_section": "0"
+    },
+    {
+      "Heure": "12/05/2021 12:00",
+      "Debit_observe": "",
+      "Debit_prevu": "1914.97",
+      "Cote_observe": "",
+      "Cote_prevue": "202.7219",
+      "id_section": "0"
+    },
+    {
+      "Heure": "13/05/2021 00:00",
+      "Debit_observe": "",
+      "Debit_prevu": "2220",
+      "Cote_observe": "",
+      "Cote_prevue": "202.9014",
+      "id_section": "0"
+    },
+    {
+      "Heure": "13/05/2021 12:00",
+      "Debit_observe": "",
+      "Debit_prevu": "2787.17",
+      "Cote_observe": "",
+      "Cote_prevue": "203.036",
+      "id_section": "0"
+    },
+    {
+      "Heure": "14/05/2021 00:00",
+      "Debit_observe": "",
+      "Debit_prevu": "3035.98",
+      "Cote_observe": "",
+      "Cote_prevue": "203.519",
+      "id_section": "0"
+    },
+    {
+      "Heure": "11/05/2021 00:00",
+      "Debit_observe": "",
+      "Debit_prevu": "",
+      "Cote_observe": "204.6719",
+      "Cote_prevue": "",
+      "id_section": "1"
+    },
+    {
+      "Heure": "11/05/2021 12:00",
+      "Debit_observe": "",
+      "Debit_prevu": "",
+      "Cote_observe": "204.7655",
+      "Cote_prevue": "",
+      "id_section": "1"
+    },
+    {
+      "Heure": "12/05/2021 00:00",
+      "Debit_observe": "",
+      "Debit_prevu": "",
+      "Cote_observe": "204.8851",
+      "Cote_prevue": "",
+      "id_section": "1"
+    },
+    {
+      "Heure": "12/05/2021 10:00",
+      "Debit_observe": "",
+      "Debit_prevu": "1906.61",
+      "Cote_observe": "204.9799",
+      "Cote_prevue": "204.9799",
+      "id_section": "1"
+    },
+    {
+      "Heure": "12/05/2021 12:00",
+      "Debit_observe": "",
+      "Debit_prevu": "1929.76",
+      "Cote_observe": "",
+      "Cote_prevue": "205.0116",
+      "id_section": "1"
+    },
+    {
+      "Heure": "13/05/2021 00:00",
+      "Debit_observe": "",
+      "Debit_prevu": "2320.45",
+      "Cote_observe": "",
+      "Cote_prevue": "205.4795",
+      "id_section": "1"
+    },
+    {
+      "Heure": "13/05/2021 12:00",
+      "Debit_observe": "",
+      "Debit_prevu": "2851.37",
+      "Cote_observe": "",
+      "Cote_prevue": "206.0854",
+      "id_section": "1"
+    },
+    {
+      "Heure": "14/05/2021 00:00",
+      "Debit_observe": "",
+      "Debit_prevu": "3072.15",
+      "Cote_observe": "",
+      "Cote_prevue": "206.4084",
+      "id_section": "1"
+    },
+    {
+      "Heure": "11/05/2021 00:00",
+      "Debit_observe": "1703.76",
+      "Debit_prevu": "",
+      "Cote_observe": "205.6291",
+      "Cote_prevue": "",
+      "id_section": "2"
+    },
+    {
+      "Heure": "11/05/2021 12:00",
+      "Debit_observe": "1766.42",
+      "Debit_prevu": "",
+      "Cote_observe": "205.7402",
+      "Cote_prevue": "",
+      "id_section": "2"
+    },
+    {
+      "Heure": "12/05/2021 00:00",
+      "Debit_observe": "1844.65",
+      "Debit_prevu": "",
+      "Cote_observe": "205.8804",
+      "Cote_prevue": "",
+      "id_section": "2"
+    },
+    {
+      "Heure": "12/05/2021 10:00",
+      "Debit_observe": "1915.8",
+      "Debit_prevu": "1915.8",
+      "Cote_observe": "205.9955",
+      "Cote_prevue": "205.9955",
+      "id_section": "2"
+    },
+    {
+      "Heure": "12/05/2021 12:00",
+      "Debit_observe": "",
+      "Debit_prevu": "1940.83",
+      "Cote_observe": "",
+      "Cote_prevue": "206.0345",
+      "id_section": "2"
+    },
+    {
+      "Heure": "13/05/2021 00:00",
+      "Debit_observe": "",
+      "Debit_prevu": "2363.73",
+      "Cote_observe": "",
+      "Cote_prevue": "206.6181",
+      "id_section": "2"
+    },
+    {
+      "Heure": "13/05/2021 12:00",
+      "Debit_observe": "",
+      "Debit_prevu": "2880.01",
+      "Cote_observe": "",
+      "Cote_prevue": "207.3224",
+      "id_section": "2"
+    },
+    {
+      "Heure": "14/05/2021 00:00",
+      "Debit_observe": "",
+      "Debit_prevu": "3085.3",
+      "Cote_observe": "",
+      "Cote_prevue": "207.6402",
+      "id_section": "2"
+    },
+    {
+      "Heure": "11/05/2021 00:00",
+      "Debit_observe": "1753.87",
+      "Debit_prevu": "",
+      "Cote_observe": "206.691",
+      "Cote_prevue": "",
+      "id_section": "3"
+    },
+    {
+      "Heure": "11/05/2021 12:00",
+      "Debit_observe": "1829.81",
+      "Debit_prevu": "",
+      "Cote_observe": "206.7963",
+      "Cote_prevue": "",
+      "id_section": "3"
+    },
+    {
+      "Heure": "12/05/2021 00:00",
+      "Debit_observe": "1894.95",
+      "Debit_prevu": "",
+      "Cote_observe": "206.9093",
+      "Cote_prevue": "",
+      "id_section": "3"
+    },
+    {
+      "Heure": "12/05/2021 10:00",
+      "Debit_observe": "2064.73",
+      "Debit_prevu": "2064.73",
+      "Cote_observe": "207.0556",
+      "Cote_prevue": "207.0556",
+      "id_section": "3"
+    },
+    {
+      "Heure": "12/05/2021 12:00",
+      "Debit_observe": "",
+      "Debit_prevu": "2138.88",
+      "Cote_observe": "",
+      "Cote_prevue": "207.1113",
+      "id_section": "3"
+    },
+    {
+      "Heure": "13/05/2021 00:00",
+      "Debit_observe": "",
+      "Debit_prevu": "2793.07",
+      "Cote_observe": "",
+      "Cote_prevue": "207.5565",
+      "id_section": "3"
+    },
+    {
+      "Heure": "13/05/2021 12:00",
+      "Debit_observe": "",
+      "Debit_prevu": "2756.09",
+      "Cote_observe": "",
+      "Cote_prevue": "207.9256",
+      "id_section": "3"
+    },
+    {
+      "Heure": "14/05/2021 00:00",
+      "Debit_observe": "",
+      "Debit_prevu": "2516.79",
+      "Cote_observe": "",
+      "Cote_prevue": "208.1583",
+      "id_section": "3"
+    },
+    {
+      "Heure": "11/05/2021 00:00",
+      "Debit_observe": "1085",
+      "Debit_prevu": "",
+      "Cote_observe": "210.1369",
+      "Cote_prevue": "",
+      "id_section": "4"
+    },
+    {
+      "Heure": "11/05/2021 12:00",
+      "Debit_observe": "1160.71",
+      "Debit_prevu": "",
+      "Cote_observe": "210.2719",
+      "Cote_prevue": "",
+      "id_section": "4"
+    },
+    {
+      "Heure": "12/05/2021 00:00",
+      "Debit_observe": "1213.11",
+      "Debit_prevu": "",
+      "Cote_observe": "210.3629",
+      "Cote_prevue": "",
+      "id_section": "4"
+    },
+    {
+      "Heure": "12/05/2021 10:00",
+      "Debit_observe": "1471.96",
+      "Debit_prevu": "1471.96",
+      "Cote_observe": "210.7362",
+      "Cote_prevue": "210.7362",
+      "id_section": "4"
+    },
+    {
+      "Heure": "12/05/2021 12:00",
+      "Debit_observe": "",
+      "Debit_prevu": "1550.81",
+      "Cote_observe": "",
+      "Cote_prevue": "210.8424",
+      "id_section": "4"
+    },
+    {
+      "Heure": "13/05/2021 00:00",
+      "Debit_observe": "",
+      "Debit_prevu": "1886.87",
+      "Cote_observe": "",
+      "Cote_prevue": "211.5329",
+      "id_section": "4"
+    },
+    {
+      "Heure": "13/05/2021 12:00",
+      "Debit_observe": "",
+      "Debit_prevu": "1826.07",
+      "Cote_observe": "",
+      "Cote_prevue": "211.6251",
+      "id_section": "4"
+    },
+    {
+      "Heure": "14/05/2021 00:00",
+      "Debit_observe": "",
+      "Debit_prevu": "1802.7",
+      "Cote_observe": "",
+      "Cote_prevue": "211.5954",
+      "id_section": "4"
+    },
+    {
+      "Heure": "11/05/2021 00:00",
+      "Cote_prevue": "",
+      "Volume": "",
+      "id_casier": "1"
+    },
+    {
+      "Heure": "11/05/2021 12:00",
+      "Cote_prevue": "",
+      "Volume": "",
+      "id_casier": "1"
+    },
+    {
+      "Heure": "12/05/2021 00:00",
+      "Cote_prevue": "",
+      "Volume": "",
+      "id_casier": "1"
+    },
+    {
+      "Heure": "12/05/2021 10:00",
+      "Cote_prevue": "199.56",
+      "Volume": "",
+      "id_casier": "1"
+    },
+    {
+      "Heure": "12/05/2021 12:00",
+      "Cote_prevue": "199.56",
+      "Volume": "",
+      "id_casier": "1"
+    },
+    {
+      "Heure": "13/05/2021 00:00",
+      "Cote_prevue": "203.15",
+      "Volume": "0.088",
+      "id_casier": "1"
+    },
+    {
+      "Heure": "13/05/2021 12:00",
+      "Cote_prevue": "204.27",
+      "Volume": "0.186",
+      "id_casier": "1"
+    },
+    {
+      "Heure": "14/05/2021 00:00",
+      "Cote_prevue": "204.37",
+      "Volume": "0.198",
+      "id_casier": "1"
+    },
+    {
+      "Heure": "11/05/2021 00:00",
+      "Cote_prevue": "",
+      "Volume": "",
+      "id_casier": "2"
+    },
+    {
+      "Heure": "11/05/2021 12:00",
+      "Cote_prevue": "",
+      "Volume": "",
+      "id_casier": "2"
+    },
+    {
+      "Heure": "12/05/2021 00:00",
+      "Cote_prevue": "",
+      "Volume": "",
+      "id_casier": "2"
+    },
+    {
+      "Heure": "12/05/2021 10:00",
+      "Cote_prevue": "199.56",
+      "Volume": "",
+      "id_casier": "2"
+    },
+    {
+      "Heure": "12/05/2021 12:00",
+      "Cote_prevue": "199.56",
+      "Volume": "",
+      "id_casier": "2"
+    },
+    {
+      "Heure": "13/05/2021 00:00",
+      "Cote_prevue": "203.62",
+      "Volume": "0.046",
+      "id_casier": "2"
+    },
+    {
+      "Heure": "13/05/2021 12:00",
+      "Cote_prevue": "204.28",
+      "Volume": "0.094",
+      "id_casier": "2"
+    },
+    {
+      "Heure": "14/05/2021 00:00",
+      "Cote_prevue": "204.58",
+      "Volume": "0.121",
+      "id_casier": "2"
+    },
+    {
+      "Heure": "11/05/2021 00:00",
+      "Cote_prevue": "",
+      "Volume": "",
+      "id_casier": "3"
+    },
+    {
+      "Heure": "11/05/2021 12:00",
+      "Cote_prevue": "",
+      "Volume": "",
+      "id_casier": "3"
+    },
+    {
+      "Heure": "12/05/2021 00:00",
+      "Cote_prevue": "",
+      "Volume": "",
+      "id_casier": "3"
+    },
+    {
+      "Heure": "12/05/2021 10:00",
+      "Cote_prevue": "199.56",
+      "Volume": "",
+      "id_casier": "3"
+    },
+    {
+      "Heure": "12/05/2021 12:00",
+      "Cote_prevue": "199.56",
+      "Volume": "",
+      "id_casier": "3"
+    },
+    {
+      "Heure": "13/05/2021 00:00",
+      "Cote_prevue": "203.76",
+      "Volume": "0.03",
+      "id_casier": "3"
+    },
+    {
+      "Heure": "13/05/2021 12:00",
+      "Cote_prevue": "204.59",
+      "Volume": "0.066",
+      "id_casier": "3"
+    },
+    {
+      "Heure": "14/05/2021 00:00",
+      "Cote_prevue": "204.84",
+      "Volume": "0.08",
+      "id_casier": "3"
+    },
+    {
+      "Heure": "11/05/2021 00:00",
+      "Cote_prevue": "",
+      "Volume": "",
+      "id_casier": "4"
+    },
+    {
+      "Heure": "11/05/2021 12:00",
+      "Cote_prevue": "",
+      "Volume": "",
+      "id_casier": "4"
+    },
+    {
+      "Heure": "12/05/2021 00:00",
+      "Cote_prevue": "",
+      "Volume": "",
+      "id_casier": "4"
+    },
+    {
+      "Heure": "12/05/2021 10:00",
+      "Cote_prevue": "200.65",
+      "Volume": "",
+      "id_casier": "4"
+    },
+    {
+      "Heure": "12/05/2021 12:00",
+      "Cote_prevue": "200.65",
+      "Volume": "",
+      "id_casier": "4"
+    },
+    {
+      "Heure": "13/05/2021 00:00",
+      "Cote_prevue": "204.28",
+      "Volume": "0.03",
+      "id_casier": "4"
+    },
+    {
+      "Heure": "13/05/2021 12:00",
+      "Cote_prevue": "205.85",
+      "Volume": "0.438",
+      "id_casier": "4"
+    },
+    {
+      "Heure": "14/05/2021 00:00",
+      "Cote_prevue": "206.18",
+      "Volume": "0.537",
+      "id_casier": "4"
+    },
+    {
+      "Heure": "11/05/2021 00:00",
+      "Cote_prevue": "",
+      "Volume": "",
+      "id_casier": "5"
+    },
+    {
+      "Heure": "11/05/2021 12:00",
+      "Cote_prevue": "",
+      "Volume": "",
+      "id_casier": "5"
+    },
+    {
+      "Heure": "12/05/2021 00:00",
+      "Cote_prevue": "",
+      "Volume": "",
+      "id_casier": "5"
+    },
+    {
+      "Heure": "12/05/2021 10:00",
+      "Cote_prevue": "200.58",
+      "Volume": "",
+      "id_casier": "5"
+    },
+    {
+      "Heure": "12/05/2021 12:00",
+      "Cote_prevue": "200.58",
+      "Volume": "",
+      "id_casier": "5"
+    },
+    {
+      "Heure": "13/05/2021 00:00",
+      "Cote_prevue": "204.28",
+      "Volume": "0.166",
+      "id_casier": "5"
+    },
+    {
+      "Heure": "13/05/2021 12:00",
+      "Cote_prevue": "205.71",
+      "Volume": "0.705",
+      "id_casier": "5"
+    },
+    {
+      "Heure": "14/05/2021 00:00",
+      "Cote_prevue": "206.05",
+      "Volume": "0.838",
+      "id_casier": "5"
+    },
+    {
+      "Heure": "11/05/2021 00:00",
+      "Cote_prevue": "",
+      "Volume": "",
+      "id_casier": "6"
+    },
+    {
+      "Heure": "11/05/2021 12:00",
+      "Cote_prevue": "",
+      "Volume": "",
+      "id_casier": "6"
+    },
+    {
+      "Heure": "12/05/2021 00:00",
+      "Cote_prevue": "",
+      "Volume": "",
+      "id_casier": "6"
+    },
+    {
+      "Heure": "12/05/2021 10:00",
+      "Cote_prevue": "198.72",
+      "Volume": "",
+      "id_casier": "6"
+    },
+    {
+      "Heure": "12/05/2021 12:00",
+      "Cote_prevue": "198.72",
+      "Volume": "",
+      "id_casier": "6"
+    },
+    {
+      "Heure": "13/05/2021 00:00",
+      "Cote_prevue": "198.72",
+      "Volume": "",
+      "id_casier": "6"
+    },
+    {
+      "Heure": "13/05/2021 12:00",
+      "Cote_prevue": "205.6",
+      "Volume": "0.455",
+      "id_casier": "6"
+    },
+    {
+      "Heure": "14/05/2021 00:00",
+      "Cote_prevue": "205.95",
+      "Volume": "0.664",
+      "id_casier": "6"
+    },
+    {
+      "Heure": "",
+      "Debit_observe": "",
+      "Debit_prevu": "",
+      "Cote_observe": "",
+      "Cote_prevue": "",
+      "id_section": "121"
+    },
+    {
+      "Heure": "",
+      "Cote_prevue": "",
+      "Volume": "",
+      "id_casier": "121"
+    }
+  ]
+}

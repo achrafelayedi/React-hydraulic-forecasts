@@ -124,7 +124,7 @@ p {
 }
 
 .card-selector {
-  width: 15%;
+  width: 42%;
 }
 
 .top-margin-small {
@@ -163,6 +163,7 @@ p {
 
 .leaflet-popup-content-wrapper {
   background-color: #f8f9f9;
+  padding: 0.5px 0px 20px;
 }
 
 .leaflet-control-layers {
