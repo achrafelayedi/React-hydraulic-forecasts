@@ -1,6 +1,6 @@
 .leaflet-container {
   width: 93.5%;
-  height: 100vh;
+  height: 96vh;
   margin-left: 100px;
 }
 
@@ -13,6 +13,16 @@
   position: absolute;
   z-index: 8;
   left: 0;
+}
+
+.navigation2 {
+  background-color: #f4f6f6;
+  width: 100vw;
+  height: 5%;
+  display: block;
+  position: absolute;
+  margin-top: 684.3px;
+  line-height: 15px;
 }
 
 .infoLogiciels {
@@ -98,7 +108,7 @@ p {
 }
 
 .date-picker {
-  margin-left: 680px;
+  margin-left: 300px;
 }
 
 .app-bar {

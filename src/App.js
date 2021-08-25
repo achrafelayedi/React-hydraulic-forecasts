@@ -14,6 +14,7 @@ import Loading from "./components/Loading";
 import Macarte1 from "./composantes/Macarte1";
 import Navbar from "./composantes/Navbar";
 import Decoration from "./composantes/Decoration";
+import Decoration2 from "./composantes/Decoration2";
 //import Testy from "./composantes/Testy";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       {/* <Graphe /> */}
       {/* <Comobox /> */}
       {/* <Navbar /> */}
+      <Decoration2 />
       <Decoration />
       <Macarte1 />
     </div>

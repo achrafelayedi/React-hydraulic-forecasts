@@ -216,6 +216,21 @@ function onEachSection(section, layer) {
     }); */
 }
 
+/* onSectionMouseOver = (event) => {
+  event.target.setStyle({
+    color: "green",
+    fillColor: "yellow",
+  });
+};
+
+SectionGroup = (section, layer) => {
+  layer.bindPopup(section.properties.NOM);
+
+  layer.on({
+    mouseover: this.onSectionMouseOver,
+  });
+}; */
+
 function casier_colored(casier, layer) {
   const color = "red";
   layer.options.fillColor = color;
@@ -480,6 +495,7 @@ export default class Macarte1 extends Component {
           <Popup className="popupPc12">
             <div>
               {/* <Comobox10 /> */}
+              <Calendar />
               <Comobox21 />
             </div>
           </Popup>
@@ -488,6 +504,7 @@ export default class Macarte1 extends Component {
           style={section_style}
           data={section.features}
           onEachFeature={onEachSection}
+          /* onEachFeature={this.SectionGroup} */
         />
         <GeoJSON style={section_style} data={P63800.features}>
           <Popup className="popupP63800">
