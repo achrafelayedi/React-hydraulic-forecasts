@@ -10,9 +10,14 @@ export default function Decoration() {
           style={{ height: 110, width: 100 }}
           src={require("./../img/react_img.png").default}
         ></img>
-        <h1 className="Title">
+        <img
+          style={{ height: 110, width: 100 }}
+          src={require("./../img/logo_oscar6.png").default}
+        ></img>
+
+        {/* <h1 className="Title">
           Système d'information pour visualiser les prévisions hydrauliques
-        </h1>
+        </h1> */}
       </div>
 
       <div className="animation-tempo">

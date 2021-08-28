@@ -435,6 +435,7 @@ export default class Macarte1 extends Component {
           <Popup className="popupPc11">
             <div>
               {/* <Comobox5 /> */}
+              <Calendar />
               <Comobox16 />
             </div>
           </Popup>
@@ -447,6 +448,7 @@ export default class Macarte1 extends Component {
           <Popup className="popupPc12">
             <div>
               {/* <Comobox6 /> */}
+              <Calendar />
               <Comobox17 />
             </div>
           </Popup>
@@ -459,6 +461,7 @@ export default class Macarte1 extends Component {
           <Popup className="popupPc12">
             <div>
               {/* <Comobox7 /> */}
+              <Calendar />
               <Comobox18 />
             </div>
           </Popup>
@@ -471,6 +474,7 @@ export default class Macarte1 extends Component {
           <Popup className="popupPc12">
             <div>
               {/* <Comobox8 /> */}
+              <Calendar />
               <Comobox19 />
             </div>
           </Popup>
@@ -483,6 +487,7 @@ export default class Macarte1 extends Component {
           <Popup className="popupPc12">
             <div>
               {/* <Comobox9 /> */}
+              <Calendar />
               <Comobox20 />
             </div>
           </Popup>
@@ -510,6 +515,7 @@ export default class Macarte1 extends Component {
           <Popup className="popupP63800">
             <div>
               {/* <Comobox /> */}
+              <Calendar />
               <Comobox11 />
             </div>
           </Popup>
@@ -518,6 +524,7 @@ export default class Macarte1 extends Component {
           <Popup className="popup78000">
             <div>
               {/* <Comobox1 /> */}
+              <Calendar />
               <Comobox12 />
             </div>
           </Popup>
@@ -526,6 +533,7 @@ export default class Macarte1 extends Component {
           <Popup className="P91250">
             <div>
               {/* <Comobox3 /> */}
+              <Calendar />
               <Comobox14 />
             </div>
           </Popup>
@@ -534,6 +542,7 @@ export default class Macarte1 extends Component {
           <Popup className="PTCORDON">
             <div>
               {/* <Comobox4 /> */}
+              <Calendar />
               <Comobox15 />
             </div>
           </Popup>
@@ -542,6 +551,7 @@ export default class Macarte1 extends Component {
           <Popup className="PTGROSLE">
             <div>
               {/* <Comobox2 /> */}
+              <Calendar />
               <Comobox13 />
             </div>
           </Popup>
