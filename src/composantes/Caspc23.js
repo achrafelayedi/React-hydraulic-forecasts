@@ -26,7 +26,7 @@ const Caspc23 = () => {
           labels: heure,
           datasets: [
             {
-              label: "Volume",
+              label: "Volume prévu",
               data: volume,
               backgroundColor: "blue",
               borderColor: "blue",
@@ -70,7 +70,7 @@ const Caspc23 = () => {
               min: 0,
               max: 1,
               title: {
-                text: "Volume (m3)",
+                text: "Volume (Mm3)",
                 display: true,
               },
             },

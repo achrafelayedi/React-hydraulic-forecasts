@@ -39,7 +39,11 @@
   height: 80px;
 }
 
-h1 {
+.imgreact {
+  margin-bottom: 60px;
+}
+
+/* h1 {
   color: #7c795d;
   font-family: serif;
   font-size: 18px;
@@ -48,7 +52,7 @@ h1 {
   margin: 0;
   text-align: center;
   padding-bottom: 30%;
-}
+} */
 
 .animation-tempo {
   background-color: #f6f5f9;
