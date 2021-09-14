@@ -4,8 +4,7 @@ This application allows forecasters to view hydraulic forecasts during flood per
 
 # Demo
 
-[![Watch the video](https://user-images.githubusercontent.com/36647745/133257554-37d646c8-f955-4839-a443-cf97b2656d4a.png)
-](https://files.fm/f/rf5zabhdn)
+[![Watch the video](https://user-images.githubusercontent.com/36647745/133257965-8da762e4-61ca-4f44-8a29-4c47e10f2da3.png)](https://files.fm/f/rf5zabhdn)
 
 # Getting Started with Create React App
 
